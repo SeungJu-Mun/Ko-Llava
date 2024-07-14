@@ -7,6 +7,9 @@
 3) xtuner/llava-llama-3-8b-transformers(https://huggingface.co/xtuner/llava-llama-3-8b-transformers)
 
 ```
+<p align="center" width="100%">
+<img src="assert/Seoul_city.png" alt="NLP Logo" style="width: 50%;">
+</p>
 
 ### Running the model on GPU
 ```python
