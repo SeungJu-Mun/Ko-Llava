@@ -1,8 +1,8 @@
 # Llama3-Chat_Vector-kor_llava : Llama3 기반 한국어 LLAVA 모델
+---
 
 ## Update Logs
-- 2024.06.27: [🤗Kor-llava 모델 공개](nebchi/Llama3-Chat_Vector-kor_llava)
----
+- 2024.06.27: [🤗Llama3 기반 한국어 LLAVA 모델 공개](nebchi/Llama3-Chat_Vector-kor_llava)
 
 ### Reference Models:
 1) beomi/Llama-3-KoEn-8B(https://huggingface.co/beomi/Llama-3-KoEn-8B)
