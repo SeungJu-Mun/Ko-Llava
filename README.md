@@ -1,30 +1,11 @@
----
-language:
-- ko
-- en
-license: cc-by-nc-sa-4.0
-library_name: transformers
----
 # Llama3-Chat_Vector-kor_llava
-
-I have implemented a Korean LLAVA model referring to the models created by Beomi, who made the Korean Chat Vector LLAVA model, and Toshi456, who made the Japanese Chat Vector LLAVA model.
+저는 Beomi가 만든 한국어 챗 벡터 LLAVA 모델과 Toshi456이 만든 일본어 챗 벡터 LLAVA 모델을 참조하여 한국어 LLAVA 모델을 구현했습니다.
 
 ### Reference Models:
 1) beomi/Llama-3-KoEn-8B-xtuner-llava-preview(https://huggingface.co/beomi/Llama-3-KoEn-8B-xtuner-llava-preview)
 2) toshi456/chat-vector-llava-v1.5-7b-ja(https://huggingface.co/toshi456/chat-vector-llava-v1.5-7b-ja)
 3) [xtuner/llava-llama-3-8b-transformers](https://huggingface.co/xtuner/llava-llama-3-8b-transformers)
 
----
-**Citation**
-
-```bibtex
-@misc {Llama3-Chat_Vector-kor_llava,
-	author       = { {nebchi} },
-	title        = { Llama3-Chat_Vector-kor_llava },
-	year         = 2024,
-	url          = { https://huggingface.co/nebchi/Llama3-Chat_Vector-kor_llava },
-	publisher    = { Hugging Face }
-}
 ```
 ![Seoul City](https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAzMzFfNDYg%2FMDAxNzExODMzNTM4MTU5.Xf8te7rReNi4aXtFAsjjdeCsXDv1Tr4Be5pOsuofd0Mg.i8UclMMaD91i0MEMEXXKsgloQKZQbJfVJQeqK_2UC8Yg.PNG%2F359d2185%25A3%25ADc597%25A3%25AD49a3%25A3%25ADb102%25A3%25ADdf25158be59f.png&type=sc960_832)
 
@@ -73,6 +54,17 @@ output = model.generate(
 )
 print(processor.decode(output[0][2:], skip_special_tokens=False))
 ```
+
+**Citation**
+
+```bibtex
+@misc {Llama3-Chat_Vector-kor_llava,
+	author       = { {nebchi} },
+	title        = { Llama3-Chat_Vector-kor_llava },
+	year         = 2024,
+	url          = { https://huggingface.co/nebchi/Llama3-Chat_Vector-kor_llava },
+	publisher    = { Hugging Face }
+}
 
 ### results
 ```python
