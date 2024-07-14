@@ -4,7 +4,7 @@
 ### Reference Models:
 1) beomi/Llama-3-KoEn-8B-xtuner-llava-preview(https://huggingface.co/beomi/Llama-3-KoEn-8B-xtuner-llava-preview)
 2) toshi456/chat-vector-llava-v1.5-7b-ja(https://huggingface.co/toshi456/chat-vector-llava-v1.5-7b-ja)
-3) [xtuner/llava-llama-3-8b-transformers](https://huggingface.co/xtuner/llava-llama-3-8b-transformers)
+3) xtuner/llava-llama-3-8b-transformers(https://huggingface.co/xtuner/llava-llama-3-8b-transformers)
 
 ```
 
