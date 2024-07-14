@@ -7,11 +7,12 @@
 ### Reference Models:
 1) beomi/Llama-3-KoEn-8B(https://huggingface.co/beomi/Llama-3-KoEn-8B)
 2) xtuner/llava-llama-3-8b-transformers(https://huggingface.co/xtuner/llava-llama-3-8b-transformers)
+3) Chat-Vector(https://arxiv.org/abs/2310.04799)
 
 **Model Developers**: nebchi
 
 ## Model Description
-* 이번 Kor-LLAVA 모델은 대량의 한국어 코퍼스로 사전학습한 LLAMA 모델과 llava 모델을 결합하여, 이미지에 대하여, 텍스트로 설명이 가능한 VLM 모델 입니다.
+* 이번 Kor-LLAVA 모델은 대량의 한국어 코퍼스로 사전학습한 LLAMA 모델과 LLAVA 모델을 Chat_Vector를 활용하여, 이미지에 대하여, 텍스트로 설명이 가능한 VLM 모델 입니다.
 
 <p align="left" width="100%">
 <img src="assert/Seoul_city.png" alt="NLP Logo" style="width: 40%;">
