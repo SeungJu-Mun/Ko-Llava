@@ -5,9 +5,9 @@
 - 2024.06.27: [🤗Llama3 기반 한국어 LLAVA 모델 공개](nebchi/Llama3-Chat_Vector-kor_llava)
 
 ### Reference Models:
-1) beomi/Llama-3-KoEn-8B(https://huggingface.co/beomi/Llama-3-KoEn-8B)
-2) xtuner/llava-llama-3-8b-transformers(https://huggingface.co/xtuner/llava-llama-3-8b-transformers)
-3) Chat-Vector(https://arxiv.org/abs/2310.04799)
+1) [beomi/Llama-3-KoEn-8B](https://huggingface.co/beomi/Llama-3-KoEn-8B)
+2) [xtuner/llava-llama-3-8b-transformers](https://huggingface.co/xtuner/llava-llama-3-8b-transformers)
+3) [Chat-Vector](https://arxiv.org/abs/2310.04799)
 
 **Model Developers**: nebchi
 
