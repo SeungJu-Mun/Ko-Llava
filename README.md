@@ -7,7 +7,6 @@
 3) [xtuner/llava-llama-3-8b-transformers](https://huggingface.co/xtuner/llava-llama-3-8b-transformers)
 
 ```
-![Seoul City](https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAzMzFfNDYg%2FMDAxNzExODMzNTM4MTU5.Xf8te7rReNi4aXtFAsjjdeCsXDv1Tr4Be5pOsuofd0Mg.i8UclMMaD91i0MEMEXXKsgloQKZQbJfVJQeqK_2UC8Yg.PNG%2F359d2185%25A3%25ADc597%25A3%25AD49a3%25A3%25ADb102%25A3%25ADdf25158be59f.png&type=sc960_832)
 
 ### Running the model on GPU
 ```python
@@ -55,6 +54,11 @@ output = model.generate(
 print(processor.decode(output[0][2:], skip_special_tokens=False))
 ```
 
+### results
+```python
+이 이미지에는 도시의 모습이 잘 보여집니다. 도시 내부에는 여러 건물과 건물들이 있고, 도시를 연결하는 도로와 교통 시스템이 잘 발달되어 있습니다. 이 도시의 특징은 높고 광범위한 건물들과 교통망을 갖춘 것이 좋습니다.
+```
+---
 **Citation**
 
 ```bibtex
@@ -65,8 +69,3 @@ print(processor.decode(output[0][2:], skip_special_tokens=False))
 	url          = { https://huggingface.co/nebchi/Llama3-Chat_Vector-kor_llava },
 	publisher    = { Hugging Face }
 }
-
-### results
-```python
-이 이미지에는 도시의 모습이 잘 보여집니다. 도시 내부에는 여러 건물과 건물들이 있고, 도시를 연결하는 도로와 교통 시스템이 잘 발달되어 있습니다. 이 도시의 특징은 높고 광범위한 건물들과 교통망을 갖춘 것이 좋습니다.
-```
