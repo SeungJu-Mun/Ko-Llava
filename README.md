@@ -13,6 +13,7 @@
 
 ## Model Description
 * 이번 Kor-LLAVA 모델은 대량의 한국어 코퍼스로 사전학습한 LLAMA 모델과 LLAVA 모델을 Chat_Vector를 활용하여, 이미지에 대하여, 텍스트로 설명이 가능한 VLM 모델 입니다.
+* Chat_Vector는 학습된 가중치 매개변수를 더하고 빼는 것으로 사전 학습된 모델에 대화능력을 부여를 하는데, 이를 통해 영어 중심으로 학습된 LLAVA 모델에 대량의 한국어 코퍼스로 학습한 한국어 LLM의 언어 능력을 LLAVA에 주입하여 한국어 답변이 가능하도록 학습하였습니다.
 
 <p align="left" width="100%">
 <img src="assert/Seoul_city.png" alt="NLP Logo" style="width: 40%;">
