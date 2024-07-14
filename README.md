@@ -1,10 +1,12 @@
-# Llama3-Chat_Vector-kor_llava
-저는 Beomi가 만든 한국어 챗 벡터 LLAVA 모델과 Toshi456이 만든 일본어 챗 벡터 LLAVA 모델을 참조하여 한국어 LLAVA 모델을 구현했습니다.
+# Llama3-Chat_Vector-kor_llava : Llama3 기반 한국어 LLAVA 모델
+
+## Update Logs
+- 2024.06.27: [🤗Kor-llava 모델 공개](nebchi/Llama3-Chat_Vector-kor_llava)
+---
 
 ### Reference Models:
-1) beomi/Llama-3-KoEn-8B-xtuner-llava-preview(https://huggingface.co/beomi/Llama-3-KoEn-8B-xtuner-llava-preview)
-2) toshi456/chat-vector-llava-v1.5-7b-ja(https://huggingface.co/toshi456/chat-vector-llava-v1.5-7b-ja)
-3) xtuner/llava-llama-3-8b-transformers(https://huggingface.co/xtuner/llava-llama-3-8b-transformers)
+1) beomi/Llama-3-KoEn-8B(https://huggingface.co/beomi/Llama-3-KoEn-8B)
+2) xtuner/llava-llama-3-8b-transformers(https://huggingface.co/xtuner/llava-llama-3-8b-transformers)
 
 ```
 <p align="center" width="100%">
