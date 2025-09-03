@@ -1,4 +1,4 @@
-# config/env_config.py
+# config/settings.py
 import os
 from dataclasses import dataclass
 from pathlib import Path
@@ -6,6 +6,7 @@ from typing import Optional
 from dotenv import load_dotenv
 
 def _env(name: str, default: Optional[str] = None, required: bool = False) -> str:
+    """환경 변수를 가져오는 헬퍼 함수"""
     val = os.getenv(name, default)
     if required and (val is None or val == ""):
         raise RuntimeError(f"Missing required env var: {name}")
@@ -13,6 +14,7 @@ def _env(name: str, default: Optional[str] = None, required: bool = False) -> st
 
 @dataclass(frozen=True)
 class EnvironmentConfig:
+    """환경 설정을 관리하는 데이터 클래스"""
     LLAMA_MODEL_NAME: str
     LLAVA_MODEL_NAME: str
     CACHE_DIR: Path
@@ -20,6 +22,7 @@ class EnvironmentConfig:
 
     @classmethod
     def load(cls, dotenv_path: Optional[str] = None) -> "EnvironmentConfig":
+        """환경 변수를 로드하여 설정 인스턴스를 생성합니다."""
         load_dotenv(dotenv_path, override=False)
 
         cache_dir = Path(_env("CACHE_DIR", default="~/.cache/hf")).expanduser()
